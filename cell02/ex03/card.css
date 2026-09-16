@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.card {
+  width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.info-table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+
+.info-table td {
+  border: none;
+  padding: 6px 0;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.login {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.description {
+  color: gray;
+}
+
+.socials a {
+  text-decoration: none;
+  font-size: 1.3em;
+  margin: 0 6px;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}

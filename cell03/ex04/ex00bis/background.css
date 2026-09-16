@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+#btn {
+  display: block;
+  margin: 20px auto;
+  padding: 8px 16px;
+  font-size: 1em;
+}
